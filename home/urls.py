@@ -5,5 +5,6 @@ from home import views
 urlpatterns = [
     path('', views.index, name="home"),
     path('index', views.index, name="home"),
-    path('explore', views.explore, name="explore")
+    path('explore', views.explore, name="explore"),
+    path('show', views.show, name="show")
 ]
